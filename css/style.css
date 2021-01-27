@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a{
+    margin-right: 1rem;
+    color: black;
+}
+nav .nav-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+nav .nav-right-section img{
+    border-radius: 50%;
+    padding-left: 1.5rem;
+}
+main {
+    margin-top: 15rem;
+    text-align: center;
+}
+main .main-logo{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+main .main-logo img{
+    width: 30rem;
+}
+
+main .main-input{
+    width: 54rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+} 
+main .main-input-container {
+    width: 52.5rem;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #dfe1e5;
+    border-color: #dfe1e9;
+}
+main .main-input .search-icon {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
+
+main .main-buttons {
+    width: 53rem;
+    margin: 0 auto;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 3.6rem;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border: 1px solid #f2f2f2;
+    font-size: 1.4rem;
+    color: #3c4043;
+    border: 4px;
+    padding: 0 16px;
+    margin-right: 15px;
+}
+
+main .main-buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124; 
+    cursor: pointer;
+}
+footer { 
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul{
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 1rem;
+    color: #5f6368;
+}
