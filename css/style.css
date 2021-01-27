@@ -45,3 +45,15 @@ nav .nav-right-section img{
     border-radius: 50%;
     padding-left: 1.5rem;
 }
+main {
+    margin-top: 15rem;
+    text-align: center;
+}
+main .main-logo{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+main .main-logo img{
+    width: 30rem;
+}
